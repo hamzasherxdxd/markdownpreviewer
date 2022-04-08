@@ -1,13 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background: lighten(#619e9e, 12%);
+  margin: 10px 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.markdown {
+  padding: 0 1rem;
+
+}
+
+code {
+    background: #53c5c4;
+    font-size: 0.875rem;
+    font-weight: bold;
+  }
+
+    blockquote {
+    border-left: 3px solid #53c5c4;
+    color: #224b4b;
+    padding-left: 5px;
+    margin-left: 25px;
+  }
+
+
+
+
+pre {
+    display: block;
+    overflow: auto;
+    background: #53c5c4;
+    padding: 5px;
+    line-height: 1.2;
+  }
+
+  h1 {
+    border-bottom: 2px solid #224b4b;
+  }
+
+  h2 {
+    border-bottom: 1px solid #224b4b;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+td,
+  th {
+    border: 2px solid #224b4b;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  img {
+    display: block;
+    max-width: 90%;
+    margin: 2rem auto;
+  }
